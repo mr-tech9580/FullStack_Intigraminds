@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Contact Form</title>
+</head>
+<body>
+  <h2>Contact Form</h2>
+  <form action="/submit" method="post">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    
+    <label> Gender:</label><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="Male" required><br><br>
+   
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="Female" required><br><br>
+    
+
+    <input type="submit" value="Submit">
+
+    <label for="skills">Skills</label><br>
+    <input type="checkbox" name="skills" value="html"> HTML
+    <input type="checkbox" name="skills" value="css"> CSS
+    <input type="checkbox" name="skills" value="javascript"> Javascript
+    <br>
+    <label for="Dob">Date Of Birth</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="India">India</option>
+        <option value="UK">UK</option>
+        <option value="Europe">Europe</option>
+    </select><br><br>
+
+  </form>
+</body>
+</html>

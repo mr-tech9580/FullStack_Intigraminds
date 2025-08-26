@@ -1,0 +1,8 @@
+.main{
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+#button:hover{
+    background-color: green;
+}

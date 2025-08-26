@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class = "main">
+  <h1 class = "heading">Job Application form</h1>
+  </header>
+  <section>
+    <fieldset>
+      <legend>
+        Personal Information
+      </legend>
+      First Name<br> 
+      <input type="text" placeholder="Enter 1st Name" required><br>
+      Second name<br>
+      <input type="text" placeholder="Enter 2nd Name" required><br>
+      E-mail<br>
+      <input type="text" placeholder="Enter your E-mail" required><br>
+      Phone.no<br>
+      <input type="text" placeholder="Enter your contant-no." required><br>
+      
+      
+    </fieldset>
+  <fieldset>
+    <legend>
+      Job-Details
+    </legend>
+    Position Applied<br>
+    <select required>
+      
+      <option>Manager</option>
+      <option>Software Eng.</option>
+      <option>Production Manager</option>
+      <option>Intern</option>
+    </select><br>
+    Year of Experience<br>
+    <input  type="number">
+  
+
+  </fieldset>
+  <fieldset>
+    <legend>
+      Availability
+    </legend>
+    <li>
+    Available Start<br>
+    <input type="date"  required></li>
+   <li> Willing to Relocate<br>
+    <input type="radio" id="Yes" name="y/n" value="Yes">
+    <label for="Yes">yes</label>
+    <input type="radio" id="No" name="y/n" value="female">
+    <label for="No">No</label> </li>
+  </ul>
+  </fieldset>
+  </section>
+  <header class="main">
+  <input type="button" value="submit">
+  </header>
+  
+</body>
+</html>
