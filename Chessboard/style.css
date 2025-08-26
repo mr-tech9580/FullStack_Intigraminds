@@ -1,0 +1,26 @@
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+}
+.chessboard div:nth-child(odd){
+    background-color: black;
+}
+.chessboard div:nth-child(even){
+    background-color: white;
+}
+.chessboard div:nth-child(16n+9),
+.chessboard div:nth-child(16n+11),
+.chessboard div:nth-child(16n+13),
+.chessboard div:nth-child(16n+15) { background: white;}
+
+.chessboard div:nth-child(16n+10),
+.chessboard div:nth-child(16n+12),
+.chessboard div:nth-child(16n+14),
+.chessboard div:nth-child(16n+16) { background:black;}
