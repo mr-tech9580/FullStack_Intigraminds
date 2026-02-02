@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HELLO!!!</h1>
+    <SCRIPT>
+        let car = {
+            name : "Mahak",
+            rollno : 2315001291,
+            sec :"G"
+        };
+        for(key in car){
+            document.write(key + ":" + car[key] +"<br>","<br>");
+        }
+        let colors =['red','green','pink'];
+        for(color in colors){
+           document.write(colors[color] +"<br>","<br>");
+        }
+        let students = [
+            {
+                name : "mahak",
+                marks :{
+                    math :89,
+                    english:90
+                },
+                section : "G",
+                course : "B-TECT",
+
+            }
+        ];
+        for(i in students)
+        document.write(students[i]);
+        car.name = "pari";
+        console.log(car["name"]);
+         // question 1
+        let arr = [-1,-2,3,4,-5,6];
+        console.log(arr);
+        for( i=0;i<arr.length;i++){
+            if(arr[i] > 0){
+                console.log(arr[i]);
+            }
+        }
+        // question 2
+        let n = prompt("enter number");
+        let sum = 0;
+        for( i=1;i<=n;i++){
+            if(i%2==0){
+              sum = sum + i;
+            }
+        }
+        console.log(sum);
+        // question 3
+        
+    </SCRIPT>
+</body>
+</html>

@@ -11,7 +11,7 @@ body{
       height: 100%;
       background-image: url('./images/bg.jpeg');
       background-position: center;
-      background-size: cover;
+      background-size:cover;
       filter: blur(5px); 
       background-size: cover; 
       z-index: -1;       
